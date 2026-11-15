@@ -1,0 +1,24 @@
+{
+  "actives": [
+    { "id": "bha", "name": "BHA (Salisilik Asit)", "category": "active", "conflictsWith": ["aha", "retinoid", "vitc"] },
+    { "id": "aha", "name": "AHA (Glikolik / Laktik Asit)", "category": "active", "conflictsWith": ["bha", "retinoid", "vitc"] },
+    { "id": "retinoid", "name": "Retinol / Retinal", "category": "active", "conflictsWith": ["bha", "aha", "vitc"] },
+    { "id": "vitc", "name": "C Vitamini (Askorbik Asit)", "category": "active", "conflictsWith": ["bha", "aha", "retinoid"] },
+    { "id": "niacinamide", "name": "Niacinamide", "category": "safe", "conflictsWith": [] },
+    { "id": "barrier", "name": "Bariyer Kremi / Ceramide / Centella", "category": "safe", "conflictsWith": [] },
+    { "id": "cleanser", "name": "Nazik Yüz Temizleyici", "category": "safe", "conflictsWith": [] },
+    { "id": "spf", "name": "Güneş Kremi (SPF 50+)", "category": "safe", "conflictsWith": [] }
+  ],
+  "ingredients": [
+    { "name": "Salicylic Acid", "comedogenic": 0, "safety": 2, "role": "BHA Eksfoliyan", "fungalSafe": true },
+    { "name": "Niacinamide", "comedogenic": 0, "safety": 1, "role": "Bariyer & Sebum Dengeleyici", "fungalSafe": true },
+    { "name": "Retinol", "comedogenic": 0, "safety": 4, "role": "Hücre Yenileyici (Retinoid)", "fungalSafe": true },
+    { "name": "Isopropyl Myristate", "comedogenic": 5, "safety": 3, "role": "Yumuşatıcı (Yüksek Gözenek Tıkama)", "fungalSafe": false },
+    { "name": "Cocos Nucifera Oil", "comedogenic": 4, "safety": 1, "role": "Doğal Yağ (Komedojenik)", "fungalSafe": false },
+    { "name": "Parfum", "comedogenic": 0, "safety": 7, "role": "Koku Verici (Tahriş Riski)", "fungalSafe": true },
+    { "name": "Alcohol Denat.", "comedogenic": 0, "safety": 5, "role": "Çözücü (Kurutucu Alkol)", "fungalSafe": true },
+    { "name": "Centella Asiatica Extract", "comedogenic": 0, "safety": 1, "role": "Yatıştırıcı & Onarıcı", "fungalSafe": true },
+    { "name": "Sodium Hyaluronate", "comedogenic": 0, "safety": 1, "role": "Nem Tutucu", "fungalSafe": true },
+    { "name": "Glycolic Acid", "comedogenic": 0, "safety": 3, "role": "AHA Eksfoliyan", "fungalSafe": true }
+  ]
+}
